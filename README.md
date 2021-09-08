@@ -7,7 +7,7 @@ kyunghyun Han. [git hub](https://github.com/kyunghyunHan).
 
 
 박준혁
-junhyuck Bck [git hub]()
+junhyuck Bck [git hub](https://github.com/berrypjh)
 
 
 재갈동훈
