@@ -1,3 +1,4 @@
+
 # Spaceman (team project).  
 --
 Member.  
@@ -26,3 +27,8 @@ animation을 이용한 밑에 별이 올라오게 처리
 <img width="400" alt="스크린샷 2021-09-08 오후 11 38 07" src="https://user-images.githubusercontent.com/88940298/132530419-058b0c54-29c2-4ddf-909d-f8fbae338493.png">
 
 medieaqeary를 통한 모바일환경일떄의 메인페이지 
+
+
+<img width="775" alt="스크린샷 2021-09-08 오후 11 44 16" src="https://user-images.githubusercontent.com/88940298/132531554-c11e3e31-69b0-40aa-a6c0-7ff0f9510ecc.png">
+
+javascript를 통한 3가지 선택에 의한 각각의 선택 
