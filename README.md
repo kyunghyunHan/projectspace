@@ -11,6 +11,6 @@ junhyuk Park [git hub](https://github.com/berrypjh)
 
 
 제갈동훈
-jegal donghoon [git hub]() 
+jegal donghoon [git hub](https://github.com/jwalk0510) 
    
 ---
