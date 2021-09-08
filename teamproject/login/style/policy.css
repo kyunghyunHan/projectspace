@@ -1,0 +1,133 @@
+body{
+    padding-top:0px;
+
+}
+
+
+h5,h6,li,p{
+    color: #fff;
+}
+.signin {
+    font-size: 30px;
+    color:white;
+    padding: 0 0 0 0px;
+    line-height: 100%; /*줄간격 초기화*/
+    font-weight: normal;
+    text-align: center;
+}
+/*약관전체 동의전체*/
+.agree{
+    border: none;
+    padding: 15px
+}
+.agree h5{
+    color: white;
+    font-weight: bold;
+}
+.agree h5 span{
+    color: blueviolet;
+}
+/*약관 1*/
+.agree1{/*내용과 체크*/
+    
+    border-top : 2px solid white;
+    margin-bottom: 30px;
+}
+
+.agree11{   /*내용*/
+    padding: 26px 19px;
+    height: 176px;
+    overflow: auto; /*스크롤*/
+    font-size: 14px;
+    color: #222;
+    line-height: 16px; /*줄간격*/
+    
+}
+.agree1 > p{    /*체크*/
+    background:#f8f8f8;
+    border-top:1px solid #e6e6e6;
+    height: 43px;
+    font-size: 13px;
+    color: #222;
+    text-indent: 19px; /*들여쓰기*/
+    padding-top: 10px;
+    margin-bottom: 0px;
+}
+.agree11 h5{
+    font-weight: bold;
+    color: burlywood;
+}
+.agree11 h6{
+    font-weight: bold;
+}
+
+/*약관 2*/
+.agree2{/*내용과 체크*/
+    border-top : 2px solid white;
+    margin-bottom: 30px;
+}
+.agree22{   /*내용*/
+    padding: 26px 19px;
+    height: 176px;   
+    overflow: auto;
+    font-size: 14px;
+    color: #222;
+    line-height: 16px; /*줄간격*/
+}
+.agree2 > p{    /*체크*/
+    background:#f8f8f8;
+    border-top:1px solid #e6e6e6;
+    height: 43px;
+    font-size: 13px;
+    color: #222;
+    text-indent: 19px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+}
+
+.agree22 h6{
+    font-weight: bold;
+}
+
+
+/*약관 3*/
+.agree3{/*내용과 체크*/
+    border-top : 2px solid #fff;
+    margin-bottom: 30px
+}
+
+.agree33{   /*내용*/
+    padding: 26px 19px;
+    height: 176px;    /*내부 높이*/
+    overflow: auto; /*스크롤*/
+    font-size: 14px;
+    color: #222;
+    line-height: 16px; /*줄간격*/
+}
+.agree3 > p{    /*체크*/
+    background:#f8f8f8;
+    border-top:1px solid #e6e6e6;
+    height: 43px;
+    font-size: 13px;
+    color:white;
+    text-indent: 19px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+}
+
+li{         
+    list-style: none;
+}
+
+
+label{
+cursor: pointer;
+}
+
+.checks{
+    font-size: 17px;
+}
+.btn{
+    width:100%;
+    background-color:#deb887;
+}

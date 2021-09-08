@@ -1,0 +1,314 @@
+:root {
+    --main-bg-color: black;
+    --main-font-color: #ECF0F5;
+    --border-bottom-color : #0DB8DE;
+    --label-font-color: #6C6C6C;
+    --btn-border-color : #333;
+    --btn-bg-color : #fff;
+    --main-text-color: #fff;
+    --non-text-color: #dadada5f;
+}
+
+/* 상단 메인 */
+.main_cart_title {
+    margin-top: 10px;
+}
+.main_cart_title h2{
+    display: inline-block;
+    padding: 22px 10px 10px 10px;
+    margin: 10px;
+    height: 92px;
+    color: var(--main-text-color);
+}
+
+.main_cart_title {
+    position: relative;
+    
+}
+
+/* 장바구니 - 주문/결제 - 주문완료 */
+.main_cart_sub {
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    width: 310px;
+    height: 92px;
+    color: var(--non-text-color);
+}
+
+.main_cart_box {
+    display: inline-block;
+    margin-left: 28px;
+}
+
+.main_cart_sub .main_cart_box .main_cart_icon {
+    font-size: 30px;
+}
+
+.main_cart_sub .main_cart_box h5 {
+    font-size: 15px;
+}
+/* 끝 장바구니 - 주문/결제 - 주문완료 */
+/* 끝 상단 메인 */
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    /* 아래 오류 원인 모름.. */
+    -webkit-box-shadow: 0 0 0px 1000px var(--main-bg-color) inset !important;
+    -webkit-text-fill-color: var(--btn-bg-color) !important;
+}
+
+body {
+    background-color: var(--main-bg-color);
+    box-sizing: border-box;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+/* 제목 */
+h2 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-top: 15px;
+    font-weight: bold;
+    color: var(--main-font-color);
+    padding-top: 13px;
+}
+
+/* input 설정 */
+input[type=text] {
+    background-color: var(--main-bg-color);
+    border: none;
+    border-bottom: 2px solid var(--border-bottom-color);
+    border-top: 0px;
+    /* border-radius: 0px; */
+    font-weight: bold;
+    /* outline: 0; */
+    margin-bottom: 20px;
+    padding-left: 0px;
+    color: var(--main-font-color);
+}
+
+input[type=password] {
+    background-color: var(--main-bg-color);
+    border: none;
+    border-bottom: 2px solid var(--border-bottom-color);
+    border-top: 0px;
+    /* border-radius: 0px; */
+    font-weight: bold;
+    /* outline: 0; */
+    padding-left: 0px;
+    margin-bottom: 20px;
+    color: var(--main-font-color);
+}
+
+select {
+    background-color: var(--main-bg-color);
+    border: none;
+    border-bottom: 2px solid var(--border-bottom-color);
+    border-top: 0px;
+    /* border-radius: 0px; */
+    font-weight: bold;
+    /* outline: 0; */
+    padding-left: 0px;
+    margin-bottom: 20px;
+    color: var(--main-font-color);
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0 0 0;
+}
+
+label {
+    font-size: 12px;
+    color: var(--label-font-color);
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 2px;
+    display: block;
+}
+
+/* 형식에 벗어날 경우의 text */
+.check_all {        
+    margin-bottom: 5px;
+    text-align: right;
+    color: var(--label-font-color);
+    padding-right: 5px;
+}
+
+.one_input {
+    width: 100%;
+}
+
+.phone select {
+    width: 18%;
+    padding-bottom: 2px;
+} 
+
+.phone input {
+    width: 40%;
+}
+
+/* 이메일란 */
+.email select {
+    width: 30%;
+    padding-bottom: 2px;
+}
+
+.email input {
+    width: 33%;
+}
+
+.email span {
+    color: var(--label-font-color);
+}
+
+/* 주소 우편 란 */
+#zip_code {
+    width: 40%;
+}
+
+#reference {
+    width: 49%;
+}
+
+#detail_address {
+    width: 50%;
+}
+
+#address_button {
+    width: 100px;
+    margin: 0 15px;
+    border: 1px solid var(--main-font-color);
+    color: var(--main-font-color);
+    padding: 8px;
+    cursor: pointer;
+}
+
+#address_button:hover {
+    font-weight: bolder;
+}
+
+.address_all {
+    padding-top: 10px;
+}
+
+/* 결제 버튼 */
+#pay {
+    width: 200px;
+    color: var(--label-font-color);
+    background-color: var(--main-font-color);
+    border-color: var(--main-font-color);
+    padding: 8px;
+    font-size: 20px;
+    background-color: transparent;
+}
+
+#pay span {
+    color: var(--main-font-color);
+    padding: 8px;
+}
+
+#pay:hover {
+    font-weight: bolder;
+}
+
+#pay_button {
+    width: 100%;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 70px;
+}
+
+@media screen and (max-width:1666px) {
+    .email input {
+        width: 32%;
+    }
+}
+
+@media screen and (max-width:1161px) {
+    .phone input {
+        width: 39%;
+    }
+    #pay {
+        font-size: 18px;
+        width: 150px;
+    }
+    #address_button {
+        width: 80px;
+        font-size: 15px;
+    }
+    #detail_address {
+        width: 49%;
+    }
+}
+
+@media screen and (max-width:1123px) {
+    .email input {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width:767px) {
+    form {
+        margin: 0 50px;
+    }
+    .phone input {
+        width: 40%;
+    }
+    .email input {
+        width: 32%;
+    }
+    #detail_address {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:677px) {
+    .phone input {
+        width: 39%;
+    }
+}
+
+@media screen and (max-width:677px) {
+    .email input {
+        width: 31%;
+    }
+    #detail_address {
+        width: 49%;
+    }
+}
+
+@media screen and (max-width:523px) {
+    .email input {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width:442px) {
+    .email input {
+        width: 29%;
+    }
+}
+@media screen and (max-width:396px) {
+    .phone input {
+        width: 38%;
+    }
+    #detail_address {
+        width: 48%;
+    }
+}

@@ -1,0 +1,100 @@
+body{
+    padding-top:0px;
+    color: white;
+    
+}
+.birth{
+    color: white;
+}
+.join {
+    font-size: 30px;
+    color: #fff;
+    padding: 0 0 0 0px;
+    line-height: 100%; /*줄간격 초기화*/
+    font-weight: normal;
+    text-align: center;
+    
+}
+/*약관전체 동의전체*/
+.signin{
+    border: none;
+    padding: 15px
+   
+    
+    
+}
+.signin h5{
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+.signin h5 span{
+    color: burlywood;
+}
+/*약관 1*/
+.signin1{/*내용과 체크*/
+    border-top : 2px solid #fff;
+    text-align: center;
+}
+
+.signin11{   /*내용*/
+    padding: 26px 19px;
+    height: 176px;
+    color: #222;
+    line-height: 16px; /*줄간격*/
+    text-align: center;
+    
+}
+/*약관 2*/
+.signin2{/*내용과 체크*/
+    border-top : 2px solid #fff;
+    text-align: center;
+}
+.signin22{   /*내용*/
+    padding: 26px 19px;
+    height: 176px;
+    color: #fff;
+    line-height: 16px; /*줄간격*/
+    text-align: center;
+}
+
+
+
+li{          /*모든약관*/
+    list-style: none;
+
+}
+label{
+cursor: pointer;
+text-align: center;
+}
+
+.inputs{
+    vertical-align: middle;
+    max-width: 530px;
+    height: 47px;
+    margin: 10px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+.signin11{
+    height:250px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.signin22{
+    height:250px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.btn{
+    max-width: 530px;
+    height: 47px;
+    margin: 10px;
+    width: 100%;
+    background-color: #deb887;
+    text-align: center;
+   
+    
+}

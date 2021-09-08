@@ -1,0 +1,199 @@
+:root {
+    --main-bg-color: #000;
+    --card-bg-color: #F78181;
+    --card-text-color: #fff;
+    --card-sd-color : rgba(224, 219, 219, 0.8);
+    --card-roll-color : #81764baf;
+    --btn-border-color : #333;
+    --btn-bg-color : #fff;
+}
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: var(--main-bg-color);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container .card:hover .cardImg1 {
+    background: var(--card-bg-color);
+    transform: translateY(0);
+}
+#mainCoffee {
+    margin: auto;
+}
+.container{
+    width: auto;
+    position: relative;
+}
+.container .card{
+    position: relative;
+    cursor: pointer;
+    align-items: center;
+    background: var(--main-bg-color);
+}
+.container .card .cardImg{
+    width: 300px;
+    height: 200px;
+    transition: 0.5s;
+}
+.container .card .cardImg1 {
+    position: relative;
+    background: var(--main-bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform: translateY(100px);
+    height: 300px;
+    width: 50%;
+}
+.container .card .cardImg1 .content{
+    opacity: 0.2;
+    transition: 0.5s;
+}
+.container .card:hover .cardImg1 .content{
+    opacity: 1;
+}
+.container .card .cardImg1 .content img{
+    max-width: 400px;
+    max-height: 200px;
+}
+.container .card .cardImg1 .content h3{
+    margin: 10px 0 0;
+    padding: 0;
+    color: var(--card-text-color);
+    text-align: center;
+    font-size: 1.5em;
+}
+.container .card .cardImg2 {
+    position: relative;
+    background: var(--card-text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 20px 50px var(--card-sd-color);
+    transform: translateY(-100px);
+    height: 150px;
+    width: 50%;
+}
+.container .card:hover .cardImg2 {
+    transform: translateY(0);
+}
+.container .card .cardImg2 .content {
+    padding: 30px 10px 10px 10px;
+    margin: 20px;
+}
+.container .card .cardImg2 .content p{
+    margin: 0;
+    padding: 0;
+}
+.container .card .cardImg2 .content a{
+    margin: 15px 5px;
+    display:  inline-block;
+    text-decoration: none;
+    font-weight: 900;
+    color: var(--main-bg-color);
+    padding: 5px;
+    border: 1px solid var(--btn-border-color);
+}
+.container .card .cardImg2 .content a:hover{
+    background: var(--btn-border-color);
+    color: var(--btn-bg-color);
+}
+.rollwrap {
+    width: 70%;
+    height: 200px;
+    margin: 65px auto 0 auto;
+    padding: 0 20px;
+    position: relative;
+}
+.rollwrap > a {
+    color: var(--btn-border-color);
+    font-size: 30px;
+    width: 20px;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+}
+.rollwrap > a:hover {
+    color: blanchedalmond;
+}
+.rollwrap > a.rollLeft {
+    left: 0;
+}
+.rollwrap > a.rollRight {
+    right: 0;
+}
+.rollwrap .coffeeRoll {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.rollwrap .coffeeRoll ul li {
+    float: left;
+    width: 152px;
+    text-align: center;
+}
+.rollwrap .coffeeRoll ul li img {
+    width: 100px;
+}
+.rollwrap .coffeeRoll ul {
+    width: 1000%;
+}
+.rollwrap .coffeeRoll ul li p {
+    padding-top: 5px;
+    color: var(--card-roll-color);
+}
+.rollwrap .coffeeRoll li a{
+    text-decoration: none;
+}
+.rollwrap .coffeeRoll ul li a:hover p{
+    color: var(--card-text-color);
+}
+@media screen and (max-width: 1200px) {
+    .container .card .cardImg1 .content img{
+        max-height: 150px;
+    }
+    .container .card .cardImg2 .content p{
+        font-size: 13px;
+    }
+    .container .card .cardImg2 .content a{
+        font-size: 13px;
+    }
+    .container .card .cardImg{
+        width: 370px;
+        height: 250px;
+    }
+    .container .card .cardImg2{
+        height: 150px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .container .card .cardImg1 .content img{
+        max-height: 130px;
+    }
+    .container .card .cardImg2 .content p{
+        font-size: 12px;
+    }
+    .container .card .cardImg2 .content a{
+        font-size: 12px;
+    }
+    .container .card .cardImg{
+        width: 300px;
+        height: 200px;
+    }
+    .container .card .cardImg2{
+        height: 50px;
+    }
+    .container .card .cardImg2 p{
+        display: none;
+    }
+    .container .card .cardImg2 .content {
+        padding: 10px;
+    }
+}

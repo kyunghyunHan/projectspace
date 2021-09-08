@@ -1,0 +1,312 @@
+:root {
+    --main-bg-color: #000;   /* 메인 배경화면 */
+	--main-font-color: #dadada;
+	--hover-font-color: #000;
+    --cup-color: #FAFAFA;   /* 컵의 border 색 */
+    --cup-width: 30vw;  /* 컵 너비 */
+    --cup-height: 24vw; /* 컵 높이 */
+    --cup-handle-width: 5vw;    /* 컵 손잡이 (cup::after) 너비 */
+    --cup-handle-height: calc(2 * var(--cup-handle-width));    /* 컵 손잡이 (cup::after) 높이 */
+    --cup-border-width: 2vw;    /* 컵 border 굵기 */
+    --cup-inside-width: calc(var(--cup-width) - var(--cup-border-width));   /* 컵 안쪽 너비 - 컵 border  */
+    --cup-inside-height: calc(var(--cup-height) - var(--cup-border-width));   /* 컵 안쪽 높이 - 컵 border  */
+    --border-width: 1vw;    /* 컵 손잡이 (cup::after) border 굵기 */
+    --main-border: var(--border-width) solid var(--cup-color);    /* 컵 손잡이 (cup::after) border 설정 */
+    --plate-width: 25vw;    /* 컵 바닥 (plate) 너비 */
+    --plate-height: 2vw;    /* 컵 높이 (plate) 너비 */
+    /* 커피 재료 초기 배치 */
+    --coffee-bottom: 80%;
+    --water-bottom: 0;
+    --milk-bottom: 0;
+    --liquor-bottom: 0;
+    --whipped_cream-bottom: 0;
+    --steamed_milk-bottom: 0;
+    --milk_foam-bottom: 0;
+    --chocolate-bottom: 0;
+    /* 커피 재료 색상 */
+    --coffee-color: #3c302f;
+    --water-color: #b1dce2;
+    --milk-color: #f0ebe5;
+    --liquor-color: #fc8626;
+    --whipped_cream-color: #fceecb;
+    --milk_foam-color: #fceecb;
+    --steamed_milk-color: #ffd7b3;
+    --chocolate-color: #391e09;
+}
+* {
+	padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+	background: var(--main-bg-color);
+	height: 100vh;
+	width: 100vw;
+}
+#titleText ul li a{
+    text-decoration-line: none;
+    color: var(--main-font-color);
+}
+#titleText ul {     /* header와 section 사이*/
+    /* margin-top: 20px; */
+    padding-left: 0;
+}
+#titleText ul li{
+    list-style: none;
+    padding: 20px;
+}
+#titleText ul li a span{
+    font-size: 15px;
+}
+#titleText {
+	z-index: 12;
+}
+.coffeeItem::before {
+	transform: scaleX(0);
+	transform-origin: bottom right;
+	content: " ";
+	display: block;
+	position: absolute;
+	top: 0; 
+	right: 0; 
+	bottom: 0; 
+	left: 0;
+	inset: 0 0 0 0;
+	background: var(--cup-color);
+	z-index: -1;
+	transition: transform .3s ease;
+    width: 300px;
+}
+.coffeeItem:hover::before {
+	transform: scaleX(1);
+  	transform-origin: bottom left;
+}
+.coffeeItem:hover h2, span{
+	color: var(--hover-font-color);
+}
+.coffeeItem {
+    cursor: pointer;
+	position: relative;
+    z-index: 15;
+}
+.social {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.containerCoffee {
+    display: block;
+    position: sticky;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    left: 35%;
+	bottom: 10px;
+    margin-bottom: 200px;
+}
+.coffee_name {
+    color: #f1faee;
+    text-align: center;
+    /*   width: 100%; */
+    font-size: 4vw;
+}
+.cup {
+    width: var(--cup-width);
+    height: var(--cup-height);
+    border-radius: 0 0 10vw 10vw;
+    position: relative;
+    background-color: var(--cup-color);
+    z-index: 10;
+    box-sizing: border-box;
+    margin-top: 30px;
+    margin-left: 10%;
+}
+.cup::after {
+    content: "";
+    position: absolute;
+    top: 10%;
+    left: calc(100% - 1vw);
+    width: var(--cup-handle-width);
+    height: var(--cup-handle-height);
+    border: var(--main-border);
+    border-radius: 50% 30%;
+}
+.plate {
+    position: absolute;
+    top: calc(100% + 1vw);
+    left: calc((var(--cup-width) - var(--plate-width)) / 2);
+    width: var(--plate-width);
+    background: var(--cup-color);
+    height: var(--plate-height);
+    border-radius: 1vw;
+}
+.filling {
+    position: absolute;
+    left: calc(var(--cup-border-width) / 2);
+    bottom: calc(var(--cup-border-width) / 2);
+    width: var(--cup-inside-width);
+    height: var(--cup-inside-height);
+    overflow: hidden;
+    border-radius: 0 0 10vw 10vw;
+    background-color: var(--main-bg-color);
+    bottom: 1vw;
+}
+.filling div {
+    position: absolute;
+    width: 100%;
+    transition: all 1s linear;
+    color: #817f75;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 0;
+    overflow: hidden;
+    font-size: 3vw;
+    height: 100%;
+    bottom: -100%;
+    box-sizing: border-box;
+}
+.filling.reset.americano {
+    --water-bottom: 0;
+    --coffee-bottom: -60%;
+}
+.filling.reset.au_lait {
+    --coffee-bottom: -50%;
+    --milk-bottom: 0%;
+}
+.filling.reset.capuccino {
+    --coffee-bottom: -65%;
+    --steamed_milk-bottom: -35%;
+    --milk_foam-bottom: 0;
+}
+.filling.reset.espresso {
+    --coffee-bottom: -60%;
+}
+.filling.reset.latte {
+    --coffee-bottom: -60%;
+    --steamed_milk-bottom: -20%;
+    --milk_foam-bottom: 0%;
+}
+.filling.reset.corretto {
+    --coffee-bottom: -45%;
+    --liquor-bottom: -25%;
+}
+.filling.reset.lungo {
+    --water-bottom: 0;
+    --coffee-bottom: -50%;
+}
+.filling.reset.macchiato {
+    --coffee-bottom: -70%;
+    --milk_foam-bottom: 0;
+}
+.filling.reset.mocha {
+    --coffee-bottom: -60%;
+    --chocolate-bottom: -40%;
+    --steamed_milk-bottom: -20%;
+    --whipped_cream-bottom: 0%;
+}
+.filling.reset.ristretto {
+    --coffee-bottom: -80%;
+}
+div.chocolate {
+    background: var(--chocolate-color);
+    bottom: var(--chocolate-bottom);
+    z-index: 6;
+}
+div.coffee {
+    background: var(--coffee-color);
+    bottom: var(--coffee-bottom);
+    line-height: 4vw;
+    z-index: 7;
+}
+div.liquor {
+    background: var(--liquor-color);
+    bottom: var(--liquor-bottom);
+    z-index: 4;
+}
+div.milk {
+    background: var(--milk-color);
+    bottom: var(--milk-bottom);
+    z-index: 2;
+}
+div.milk_foam {
+    background: var(--milk_foam-color);
+    bottom: var(--milk_foam-bottom);
+    z-index: 5;
+}
+
+div.steamed_milk {
+    background: var(--steamed_milk-color);
+    bottom: var(--steamed_milk-bottom);
+    z-index: 6;
+}
+div.water {
+    background: var(--water-color);
+    bottom: var(--water-bottom);
+}
+div.whipped_cream {
+    background: var(--whipped_cream-color);
+    bottom: var(--whipped_cream-bottom);
+    z-index: 4;
+}
+.filling.reset {
+    --coffee-bottom: -100%;
+    --water-bottom: -100%;
+    --milk-bottom: -100%;
+    --liquor-bottom: -100%;
+    --whipped_cream-bottom: -100%;
+    --steamed_milk-bottom: -100%;
+    --milk_foam-bottom: -100%;
+    --chocolate-bottom: -100%;
+}
+#ingredientIntroduce {
+    background-color: white;
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    color: var(--hover-font-color);
+}
+@media screen and (max-width: 767px){
+    .options {
+        width: 100%;
+    }
+    .options ul {
+        width: auto;
+        margin-top: 0;
+        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+    }
+    .options ul li a h2{
+        font-size: 15px;
+        padding: auto;
+    }
+    .coffeeItem::before {
+        width: auto;
+    }
+    .containerCoffee .cup {
+        margin-left: 0px;
+        margin-right: 150px;
+        margin-bottom: 40px;
+    }
+    .containerCoffee {
+        left: 30%;
+    }
+}
+@media screen and (min-width: 1390px) {
+    .containerCoffee {
+        top: 40%;
+    }
+}
+@media screen and (max-width: 1218px) and (min-width: 767px) {
+    .coffeeItem::before {
+        width: 200px;
+    }
+}
+@media screen and (max-width: 580px) {
+    .options ul li a h2{
+        font-size: 12px;
+        padding: auto;
+    }
+}

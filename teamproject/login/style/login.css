@@ -1,0 +1,77 @@
+body{
+    background-color: #222;
+}
+legend{
+    color: cornsilk;
+}
+ul{
+    padding: 0%
+}
+li{
+    list-style-type: none;
+    padding-top: 10px;
+    text-align: center;
+}
+.img-fluid{
+    display: block;
+    margin: auto;
+    }
+.idform{
+    display:block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    /*font-weight: 400;*/
+    line-height: 1.5;
+    color: cornsilk;
+    background-color: #fff;
+    /*background-clip: padding-box;*/
+    border-right: black;
+    border-bottom: 1px solid #ced4da;
+    border-radius: .25rem;
+    /*transition: border-color;*/
+    background-color: #222;
+}
+.passwordform{
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+   /*font-weight: 400;*/
+    line-height: 1.5;
+    color: cornsilk;
+    background-color: #fff;
+/*background-clip: padding-box;*/
+    border-right: black;
+    border-bottom:1px solid #ced4da;
+    border-radius: .25rem;
+    background-color: #222  
+}
+.id_input{
+    margin-bottom: 18px;    
+}
+.password_input{
+    margin-bottom: 18px;
+}
+
+.remember_input{
+    margin-bottom: 17px;
+}
+input:focus{
+    outline: none;
+}
+.btn{
+    width: 100%;
+    border:solid 1px #ffc107;
+    color: #ffc107;
+}
+.btn:hover{
+    background-color:  #ffc107;
+    color: #222;
+}
+
+label{
+    color: cornsilk;
+}
+
+

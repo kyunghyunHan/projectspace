@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+}
+.main_check_icon {
+    font-size: 300px;
+    color: #fff;
+    margin-top: 40px;
+}
+.main_check_text {
+    color: #fff;
+    margin-bottom: 40px;
+}
+#main_check {
+    text-align: center;
+}
+/* 상단 메인 */
+.main_cart_title {
+    margin-top: 10px;
+}
+.main_cart_title h2{
+    display: inline-block;
+    padding: 22px 10px 10px 10px;
+    margin: 10px;
+    height: 92px;
+    color: #fff;
+}
+.main_cart_title {
+    position: relative;
+    
+}
+
+/* 장바구니 - 주문/결제 - 주문완료 */
+.main_cart_sub {
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    width: 310px;
+    height: 92px;
+    color: #dadada5f;
+}
+
+.main_cart_box {
+    display: inline-block;
+    margin-left: 28px;
+}
+
+.main_cart_sub .main_cart_box .main_cart_icon {
+    font-size: 30px;
+}
+
+.main_cart_sub .main_cart_box h5 {
+    font-size: 15px;
+}
+/* 끝 장바구니 - 주문/결제 - 주문완료 */
+/* 끝 상단 메인 */

@@ -1,0 +1,140 @@
+:root {
+    --main-bg-color: black;
+    --main-text-color: #fff;
+    --non-text-color: #dadada5f;
+}
+
+body {
+    background-color: var(--main-bg-color);
+}
+
+/* 상단 메인 */
+.main_cart_title {
+    margin-top: 10px;
+}
+.main_cart_title h2{
+    display: inline-block;
+    padding: 22px 10px 10px 10px;
+    margin: 10px;
+    height: 92px;
+    color: var(--main-text-color);
+}
+
+.main_cart_title {
+    position: relative;
+    
+}
+
+/* 장바구니 - 주문/결제 - 주문완료 */
+.main_cart_sub {
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    width: 310px;
+    height: 92px;
+    color: var(--non-text-color);
+}
+
+.main_cart_box {
+    display: inline-block;
+    margin-left: 28px;
+}
+
+.main_cart_sub .main_cart_box .main_cart_icon {
+    font-size: 30px;
+}
+
+.main_cart_sub .main_cart_box h5 {
+    font-size: 15px;
+}
+/* 끝 장바구니 - 주문/결제 - 주문완료 */
+/* 끝 상단 메인 */
+
+/* 상품 테이블 설정 */
+.label_All {
+    padding-left: 5px;
+    margin-bottom: 5px;
+    color: var(--non-text-color);
+}
+
+table {
+    width: 100%;
+    color: var(--main-text-color);
+}
+
+input {
+    background-color: transparent;
+    border: transparent;
+    color: var(--main-text-color);
+}
+
+input:focus {
+    outline: none;
+}
+
+.table_product img{
+    width: 50px;
+    height: 40px;
+}
+
+.table_product{
+    border-width: 18px 0;
+    border-color: transparent;
+}
+
+.product_text {
+    padding-left: 4px;
+}
+
+.table_product td a{
+    text-decoration-line: none;
+    color: var(--main-text-color);
+    display: inline-block;
+}
+
+.table_product td span{
+    cursor: pointer;
+}
+/* 끝 상품 테이블 설정 */
+/* 상품 금액 - 배송 - 결제금액 */
+.cost_main {
+    margin: 15px 0;
+    border: 1px solid var(--main-text-color);
+}
+
+.cost_main tr {
+    border: 1px solid var(--main-text-color);
+}
+
+.cost_main th,
+.cost_main td {
+    border: 1px solid var(--main-text-color);
+    padding-left: 10px;
+}
+
+#delivery {
+    width: 220px;
+}
+.cost_all {
+    width: 220px;
+    position: relative;
+}
+.cost_all .cost_icon {
+    position: absolute;
+    right: 10px;
+}
+/* 끝 상품 금액 - 배송 - 결제금액 */
+/* 버튼 설정 */
+.delivery_button {
+    text-align: center;
+}
+.delivery_button button {
+    margin: 30px auto;
+    background-color: transparent;
+    color: var(--main-text-color);
+    width: 130px;
+    height: 40px;
+}
