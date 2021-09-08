@@ -10,7 +10,7 @@ kyunghyun Han. [git hub](https://github.com/kyunghyunHan).
 junhyuck Bck [git hub](https://github.com/berrypjh)
 
 
-재갈동훈
+제갈동훈
 jegal donghoon [git hub]() 
    
 ---
