@@ -31,4 +31,17 @@ medieaqeary를 통한 모바일환경일떄의 메인페이지
 
 <img width="775" alt="스크린샷 2021-09-08 오후 11 44 16" src="https://user-images.githubusercontent.com/88940298/132531554-c11e3e31-69b0-40aa-a6c0-7ff0f9510ecc.png">
 
-javascript를 통한 3가지 선택에 의한 각각의 선택 
+javascript를 통한 3가지 선택에 의한 각각의
+
+
+
+
+
+<img width="1176" alt="스크린샷 2021-09-09 오후 5 45 54" src="https://user-images.githubusercontent.com/88940298/132654158-821b3f66-1e93-464d-bb2c-23d352a219c5.png">
+<img width="1357" alt="스크린샷 2021-09-09 오후 5 46 18" src="https://user-images.githubusercontent.com/88940298/132654161-bbe7ea80-86e6-400e-bc80-c9c21499efdd.png">
+선택 
+
+
+
+<img width="1331" alt="스크린샷 2021-09-09 오후 5 45 16" src="https://user-images.githubusercontent.com/88940298/132654146-af98c5b3-a5e5-4caa-907b-37b81040206c.png">
+
