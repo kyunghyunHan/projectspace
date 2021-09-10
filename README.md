@@ -45,3 +45,7 @@ javascript를 통한 3가지 선택에 의한 각각의
 
 <img width="1331" alt="스크린샷 2021-09-09 오후 5 45 16" src="https://user-images.githubusercontent.com/88940298/132654146-af98c5b3-a5e5-4caa-907b-37b81040206c.png">
 
+
+
+<img width="1440" alt="스크린샷 2021-09-10 오전 9 07 21" src="https://user-images.githubusercontent.com/88940298/132778254-ef957b2c-a115-46b6-97b9-a536525b0f2d.png">
+<img width="1440" alt="스크린샷 2021-09-10 오전 9 07 28" src="https://user-images.githubusercontent.com/88940298/132778264-02a0475c-766e-46a0-a3f9-860cd7f7d08f.png">
