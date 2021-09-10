@@ -12,7 +12,7 @@ junhyuk Park [git hub](https://github.com/berrypjh)
 
 
 제갈동훈
-jegal donghoon [git hub](https://github.com/jwalk0510) 
+jegal donghoon [git hub](https://github.com/GariJK) 
    
 ---
 메인화면 이미지
