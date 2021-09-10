@@ -1,3 +1,4 @@
+<img width="1440" alt="스크린샷 2021-09-10 오전 9 07 28" src="https://user-images.githubusercontent.com/88940298/132799272-aead8649-a303-44d3-9471-9337e32ce53b.png">
 
 # Spaceman (team project).  
 --
