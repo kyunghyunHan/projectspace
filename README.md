@@ -12,9 +12,7 @@ kyunghyun Han. [git hub](https://github.com/kyunghyunHan).
 junhyuk Park [git hub](https://github.com/berrypjh)
 
 
-제갈동훈
-jegal donghoon [git hub](https://github.com/GariJK) 
-   
+
 ---
 메인화면 이미지
 
