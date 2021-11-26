@@ -54,6 +54,13 @@
 메인
 ![KakaoTalk_Image_2021-11-26-16-13-39](https://user-images.githubusercontent.com/88940298/143541462-28f5a00c-fa82-48c8-9f61-8b665c313af7.gif)
 
+
+스타벅스
+![KakaoTalk_Image_2021-11-26-16-38-05](https://user-images.githubusercontent.com/88940298/143544340-b6f89fc0-2537-432a-a9cf-058820cb5e56.gif)
+
+
+
+
 아메리카노 선택 
 ![KakaoTalk_Image_2021-11-26-16-13-39](https://user-images.githubusercontent.com/88940298/143542877-96c075c1-2e8d-427b-a005-9bc52ad5d021.gif)
 
