@@ -86,8 +86,8 @@
 
 
 ## 결제  
-- 저장된 쿠키데이터를 아임포트 api 연결하여 물품별 가격에따라 결제
-![KakaoTalk_Photo_2021-11-26-17-28-22](https://user-images.githubusercontent.com/88940298/143550397-b4b4388f-7bf5-44aa-8935-0baf72586c41.gif)
+- 저장된 쿠키데이터를 아임포트 api 연결하여 물품별 가격에따라 결제  
+![KakaoTalk_Photo_2021-11-26-17-28-22](https://user-images.githubusercontent.com/88940298/143550397-b4b4388f-7bf5-44aa-8935-0baf72586c41.gif)  
 
 
 ## 맵  
@@ -98,8 +98,8 @@
 - 반응형 웹을 위해  미디어 쿼리를 사용하여 화면 크기에 따라 웹이 반응하게 구현
 ![KakaoTalk_Image_2021-11-26-16-55-48](https://user-images.githubusercontent.com/88940298/143546722-1ed88e7c-654a-4b01-92d9-2d674344fc39.gif)
 ## 로그인
-- 카카오 api를 사용 카카오 로그인을 구현
-![KakaoTalk_Image_2021-11-26-16-55-45](https://user-images.githubusercontent.com/88940298/143546795-5b80bb3d-426c-4e4b-8c51-a21e424a3c32.gif)
+- 카카오 api를 사용 카카오 로그인을 구현  
+![KakaoTalk_Image_2021-11-26-16-55-45](https://user-images.githubusercontent.com/88940298/143546795-5b80bb3d-426c-4e4b-8c51-a21e424a3c32.gif)  
 
 ## 디자인페이지  
 - 시놉시스 맞는 디자인 이미지 선정 후 전시회느낌의 디자인 컨셉을 구현
