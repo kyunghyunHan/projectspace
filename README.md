@@ -76,8 +76,11 @@
 
 
 ## 상품페이지  
+- 커피 및 구성용품 판매 장바구니 연결 및 결제창 연결
 ![KakaoTalk_Image_2021-11-26-16-13-39](https://user-images.githubusercontent.com/88940298/143543009-12c1cb60-25f4-4000-ab9b-893b63102934.gif)
+
 ## 장바구니  
+- 
 ![KakaoTalk_Image_2021-11-26-16-28-27](https://user-images.githubusercontent.com/88940298/143543064-5e7b0ee6-5aee-49f4-98a9-95544efbf6aa.gif)
 ## 결제  
 ![KakaoTalk_Image_2021-11-26-16-28-42](https://user-images.githubusercontent.com/88940298/143543109-f012db0e-f0b4-4ffa-b3ed-e0e87c13a185.gif)
