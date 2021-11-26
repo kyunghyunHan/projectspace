@@ -83,7 +83,7 @@
 
 ## 상품페이지  
 - 커피 및 구성용품 판매 장바구니 연결 및 결제창 연결  
-![KakaoTalk_Image_2021-11-26-16-13-39](https://user-images.githubusercontent.com/88940298/143543009-12c1cb60-25f4-4000-ab9b-893b63102934.gif)  
+![KakaoTalk_20211126_161304068](https://user-images.githubusercontent.com/89543695/143586523-7777b3b3-c501-4398-a7d9-245072810b70.gif)
 
 ## 장바구니  
 - 등록된 물품을 쿠키를 사용하여 장바구니 데이터 저장 후 저장된 쿠키를 장바구니 페이지에 데이터가 유지
