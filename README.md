@@ -80,20 +80,29 @@
 ![KakaoTalk_Image_2021-11-26-16-13-39](https://user-images.githubusercontent.com/88940298/143543009-12c1cb60-25f4-4000-ab9b-893b63102934.gif)
 
 ## 장바구니  
-- 
-![KakaoTalk_Image_2021-11-26-16-28-27](https://user-images.githubusercontent.com/88940298/143543064-5e7b0ee6-5aee-49f4-98a9-95544efbf6aa.gif)
-## 결제  
+- 등록된 물품을 쿠키를 사용하여 장바구니 데이터 저장 후 저장된 쿠키를 장바구니 페이지에 데이터가 유지
+![KakaoTalk_Image_2021-11-26-16-28-27](https://user-images.githubusercontent.com/88940298/143543064-5e7b0ee6-5aee-49f4-98a9-95544efbf6aa.gif)  
 ![KakaoTalk_Image_2021-11-26-16-28-42](https://user-images.githubusercontent.com/88940298/143543109-f012db0e-f0b4-4ffa-b3ed-e0e87c13a185.gif)
 
+
+## 결제  
+- 저장된 쿠키데이터를 아임포트 api 연결하여 물품별 가격에따라 결제
+![KakaoTalk_Photo_2021-11-26-17-28-22](https://user-images.githubusercontent.com/88940298/143550397-b4b4388f-7bf5-44aa-8935-0baf72586c41.gif)
+
+
 ## 맵  
-![KakaoTalk_Image_2021-11-26-16-55-50](https://user-images.githubusercontent.com/88940298/143546683-f41e8cc3-c26c-40d4-a7b0-86872a100186.gif)
+- 카카오 맵 api를 사용하여 마커를 등록 후 등록된 마커의 화면이 뜨게 구현
+![KakaoTalk_Image_2021-11-26-16-55-50](https://user-images.githubusercontent.com/88940298/143546683-f41e8cc3-c26c-40d4-a7b0-86872a100186.gif)  
+
 ## 모바일 환경
+- 반응형 웹을 위해  미디어 쿼리를 사용하여 화면 크기에 따라 웹이 반응하게 구현
 ![KakaoTalk_Image_2021-11-26-16-55-48](https://user-images.githubusercontent.com/88940298/143546722-1ed88e7c-654a-4b01-92d9-2d674344fc39.gif)
 ## 로그인
+- 카카오 api를 사용 카카오 로그인을 구현
 ![KakaoTalk_Image_2021-11-26-16-55-45](https://user-images.githubusercontent.com/88940298/143546795-5b80bb3d-426c-4e4b-8c51-a21e424a3c32.gif)
 
 ## 디자인페이지  
-
+- 시놉시스 맞는 디자인 이미지 선정 후 전시회느낌의 디자인 컨셉을 구현
 ![KakaoTalk_Image_2021-11-26-16-55-44](https://user-images.githubusercontent.com/88940298/143546871-de810cc2-86e2-4461-ba59-dfb11192eb99.gif)
 
 
