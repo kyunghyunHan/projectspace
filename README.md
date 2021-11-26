@@ -55,24 +55,35 @@
 ![KakaoTalk_Image_2021-11-26-16-13-39](https://user-images.githubusercontent.com/88940298/143541462-28f5a00c-fa82-48c8-9f61-8b665c313af7.gif)
 
 
-스타벅스
+스타벅스  
 ![KakaoTalk_Image_2021-11-26-16-38-05](https://user-images.githubusercontent.com/88940298/143544340-b6f89fc0-2537-432a-a9cf-058820cb5e56.gif)
 
 
 
 
-아메리카노 선택 
+아메리카노 선택   
 ![KakaoTalk_Image_2021-11-26-16-13-39](https://user-images.githubusercontent.com/88940298/143542877-96c075c1-2e8d-427b-a005-9bc52ad5d021.gif)
 
-팀페이지
+팀페이지  
 ![KakaoTalk_Image_2021-11-26-16-13-39](https://user-images.githubusercontent.com/88940298/143542957-5236efdb-470b-4c3b-9513-69232895f7fb.gif)
-상품페이지
+상품페이지  
 ![KakaoTalk_Image_2021-11-26-16-13-39](https://user-images.githubusercontent.com/88940298/143543009-12c1cb60-25f4-4000-ab9b-893b63102934.gif)
-장바구니
+장바구니  
 ![KakaoTalk_Image_2021-11-26-16-28-27](https://user-images.githubusercontent.com/88940298/143543064-5e7b0ee6-5aee-49f4-98a9-95544efbf6aa.gif)
-결제
+결제  
 ![KakaoTalk_Image_2021-11-26-16-28-42](https://user-images.githubusercontent.com/88940298/143543109-f012db0e-f0b4-4ffa-b3ed-e0e87c13a185.gif)
 
+맵  
+![KakaoTalk_Image_2021-11-26-16-55-50](https://user-images.githubusercontent.com/88940298/143546683-f41e8cc3-c26c-40d4-a7b0-86872a100186.gif)
+크기 
+크기줄어들ㄷ 
+![KakaoTalk_Image_2021-11-26-16-55-48](https://user-images.githubusercontent.com/88940298/143546722-1ed88e7c-654a-4b01-92d9-2d674344fc39.gif)
+로그인
+![KakaoTalk_Image_2021-11-26-16-55-45](https://user-images.githubusercontent.com/88940298/143546795-5b80bb3d-426c-4e4b-8c51-a21e424a3c32.gif)
 
+크기줄어들ㄷ
+디자인  
+
+![KakaoTalk_Image_2021-11-26-16-55-44](https://user-images.githubusercontent.com/88940298/143546871-de810cc2-86e2-4461-ba59-dfb11192eb99.gif)
 
 
