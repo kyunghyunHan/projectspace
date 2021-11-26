@@ -6,6 +6,7 @@
  
 👨‍👩‍👦‍👦Member.  hieus의 팀원들입니다
 
+![KakaoTalk_Image_2021-11-26-17-42-23](https://user-images.githubusercontent.com/88940298/143552304-557b0f18-089a-4252-a91c-cece5c79402c.jpeg)
 
 
 한경현(kyunghyun Han):[깃허브](https://github.com/kyunghyunHan)  
