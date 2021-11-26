@@ -71,8 +71,8 @@
 
 ## 팀페이지  
 
-- 팀 페이지를 자체 제작하여 팀 소개  깃허브 주소를 연결
-![KakaoTalk_Image_2021-11-26-16-13-39](https://user-images.githubusercontent.com/88940298/143542957-5236efdb-470b-4c3b-9513-69232895f7fb.gif)
+- 팀 페이지를 자체 제작하여 팀 소개  깃허브 주소를 연결  
+![KakaoTalk_Image_2021-11-26-16-13-39](https://user-images.githubusercontent.com/88940298/143542957-5236efdb-470b-4c3b-9513-69232895f7fb.gif)  
 
 
 ## 상품페이지  
