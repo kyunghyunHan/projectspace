@@ -1,9 +1,5 @@
-# 👨‍❤️‍💋‍👨'Play & Love to Happy in PL2H World!' 
-- 사랑하는 연인과의 행복을 PL2H World에서 마음껏 즐겨보세요!
-- 싸이월드 감성이 여러분의 추억을 더욱 아름답게 해 줄 것입니다.
-- 연인을 위한 선물을 구매하고 싶으신가요? 저희가 오픈한 상점으로 구경오세요!
-- 앗! 솔로시라구요? 괜찮습니다~ 저희 상점은 누구에게나 열려있답니다~
-
+# ☕️'spaceMan' 
+- 사랑하는 사람과 커피를 우주에서 즐겨보새요
 
 ##
 ## 1차 프로젝트 : 2021 -09-01 ~ 2021-09-08
@@ -45,8 +41,17 @@
 
 스타벅스 기능을 오마주 하여 작성하엿습니다
 
+### 🛠 사용한 기술
 
+- 웹 화면 구성 : `html` `css`
+- 개발 Tool : `Visual Studio Code``github`
+- 로그인 구현 :  `kakao api` `naver api`
+- 결제: `우편 api` `아임포트`
+- 프로젝트 관리 Tool : `Google Drive` `GitHub` `notion`
 
 
 
 ![KakaoTalk_Image_2021-11-26-16-13-39](https://user-images.githubusercontent.com/88940298/143541462-28f5a00c-fa82-48c8-9f61-8b665c313af7.gif)
+
+
+
