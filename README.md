@@ -73,7 +73,7 @@
 ## 커피별 장르 
 
 - 커피 종류에 따라 커피 양 또는 종류가 무엇인지 확인 할 수 있게 제작 하였습니다
-![KakaoTalk_Image_2021-11-26-16-13-39](https://user-images.githubusercontent.com/88940298/143542877-96c075c1-2e8d-427b-a005-9bc52ad5d021.gif)
+![KakaoTalk_20211126_161306861](https://user-images.githubusercontent.com/89543695/143586265-7a5d8e8f-0c16-4b4e-ad9c-fcf0730f1a83.gif)
 
 ## 팀페이지  
 
