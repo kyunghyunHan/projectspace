@@ -1,50 +1,52 @@
-<img width="1440" alt="스크린샷 2021-09-10 오전 9 07 28" src="https://user-images.githubusercontent.com/88940298/132799272-aead8649-a303-44d3-9471-9337e32ce53b.png">
-
-# Spaceman (team project).  
---
-Member.  
---
-한경현
-kyunghyun Han. [git hub](https://github.com/kyunghyunHan).  
+# 👨‍❤️‍💋‍👨'Play & Love to Happy in PL2H World!' 
+- 사랑하는 연인과의 행복을 PL2H World에서 마음껏 즐겨보세요!
+- 싸이월드 감성이 여러분의 추억을 더욱 아름답게 해 줄 것입니다.
+- 연인을 위한 선물을 구매하고 싶으신가요? 저희가 오픈한 상점으로 구경오세요!
+- 앗! 솔로시라구요? 괜찮습니다~ 저희 상점은 누구에게나 열려있답니다~
 
 
-박준혁
-junhyuk Park [git hub](https://github.com/berrypjh)
+##
+## 1차 프로젝트 : 2021 -09-01 ~ 2021-09-08
+ 
+👨‍👩‍👦‍👦Member.  hieus의 팀원들입니다
 
 
 
----
-메인화면 이미지
+한경현(kyunghyun Han):[깃허브](https://github.com/kyunghyunHan)  
+박준혁(jun hyuk Park):[깃허브](https://github.com/berrypjh) 
 
 
-<img width="800" alt="스크린샷 2021-09-08 오후 11 30 19" src="https://user-images.githubusercontent.com/88940298/132528886-9e3bf432-e26b-41da-b7cd-0c41ab9d5e27.png">
-
-css처리 
-animation을 이용한 밑에 별이 올라오게 처리
 
 
-<img width="400" alt="스크린샷 2021-09-08 오후 11 38 07" src="https://user-images.githubusercontent.com/88940298/132530419-058b0c54-29c2-4ddf-909d-f8fbae338493.png">
-
-medieaqeary를 통한 모바일환경일떄의 메인페이지 
-
-
-<img width="775" alt="스크린샷 2021-09-08 오후 11 44 16" src="https://user-images.githubusercontent.com/88940298/132531554-c11e3e31-69b0-40aa-a6c0-7ff0f9510ecc.png">
-
-javascript를 통한 3가지 선택에 의한 각각의
+**전반적인 프로젝트 진행절차**
+1. 프로젝트 파트별로 진행
+2. 오프라인 위주의 팀 작업
+3. 오프라인이 불가능할 경우 온라인으로 팀 작업을 진행하며 서로의 코드 상황 브리핑 및 회의
+4. 각 파트별 진행 상황을 수시로 공유
 
 
 
 
 
-<img width="1176" alt="스크린샷 2021-09-09 오후 5 45 54" src="https://user-images.githubusercontent.com/88940298/132654158-821b3f66-1e93-464d-bb2c-23d352a219c5.png">
-<img width="1357" alt="스크린샷 2021-09-09 오후 5 46 18" src="https://user-images.githubusercontent.com/88940298/132654161-bbe7ea80-86e6-400e-bc80-c9c21499efdd.png">
-선택 
+**1주차** 
+>-1일차 : 서로의 프로젝트 아이디어 공유 및 정리
+>
+>-2일차 부터 프로젝트 진행
 
 
 
-<img width="1331" alt="스크린샷 2021-09-09 오후 5 45 16" src="https://user-images.githubusercontent.com/88940298/132654146-af98c5b3-a5e5-4caa-907b-37b81040206c.png">
+### 개요
+
+우주컨셉으로 한 작은 카페느낌의 페이지 구성
+
+  관련자료  
+
+스타벅스 [관련자료](https://www.starbucks.co.kr/index.do)
+
+스타벅스 기능을 오마주 하여 작성하엿습니다
 
 
 
-<img width="1440" alt="스크린샷 2021-09-10 오전 9 07 21" src="https://user-images.githubusercontent.com/88940298/132778254-ef957b2c-a115-46b6-97b9-a536525b0f2d.png">
-<img width="1440" alt="스크린샷 2021-09-10 오전 9 07 28" src="https://user-images.githubusercontent.com/88940298/132778264-02a0475c-766e-46a0-a3f9-860cd7f7d08f.png">
+
+
+![KakaoTalk_Image_2021-11-26-16-13-39](https://user-images.githubusercontent.com/88940298/143541462-28f5a00c-fa82-48c8-9f61-8b665c313af7.gif)
